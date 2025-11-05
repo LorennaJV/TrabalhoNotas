@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notas</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<h2>Notas</h2>
+
+<label for="textoNota">Digite a Nota: </label>
+<input type="text" id="textoNota">
+
+<button onclick="adicionar('naoUrgente')">Não urgente</button>
+<button onclick="adicionar('urgente')">Urgente</button>
+<button onclick="apagarTudo()">Apagar tudo</button>
+
+<h3>Urgentes</h3>
+<div id="Urgente" class="caixa"></div>
+
+<h3>Não urgentes</h3>
+<div id="NaoUrgente" class="caixa"></div>
+
+</body>
+</html>
+
